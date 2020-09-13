@@ -35,4 +35,4 @@ class Solution:
         for i, j in prerequisites:
             g.addEdge(j, i)
         visited = set()
-        
+        return False
